@@ -4,7 +4,11 @@ import { useMutation } from 'react-query'
 import { UserService } from '@/services/user.service'
 import { toastError } from '@/utils/toast-error'
 import cn from 'classnames'
+<<<<<<< HEAD
 import HeartImage from './heart-animation.png'
+=======
+// import HeartImage from '@/assets/../../public/heart-animation.png'
+>>>>>>> b8fc09f ( mvh)
 import styles from './FavoriteButton.module.scss'
 
 
@@ -40,7 +44,11 @@ const FavoriteButton:FC<{movieId: string}> = ({movieId}) => {
 		className={cn(styles.button, {
 			[styles.animate]: isSmashed
 		})}
+<<<<<<< HEAD
 		style={{backgroundImage: `url(${HeartImage.src}`}}
+=======
+		style={{backgroundImage: `url(https://i.ibb.co/HzKjmwd/heart-animation.png`}}
+>>>>>>> b8fc09f ( mvh)
 	/>
 }
 
