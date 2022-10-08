@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F","\u002Factor\u002F[slug]","\u002Ffresh","\u002Fgenres","\u002Fgenres\u002F[slug]","\u002Fmovie\u002F[slug]","\u002Ftrending"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
